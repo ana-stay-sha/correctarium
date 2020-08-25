@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Редактура (корректирование) текстов онлайн</title>
+</head>
+<body>
+  <header class="header">
+      <div class="container">
+        <div class="header-block"> 
+          <nav>
+            <ul>
+              <li><a><img src="img/logo.png" alt="logo" title="Logo" ></a></li>
+              <li><a href="/ua/how-it-works">Про нас</a></li>
+              <li><a href="/ua/price">Ціни</a></li>
+              <li><a href="/ua/who">Редактори</a></li>
+              <li><a href="/ua/nofollow">Блог</a></li>
+            </ul>
+          </nav>
+      </div>
+      <div class="header-block"> 
+        <div class="header-button-wrap">
+          <button class="header-button">Перевірити текст</button>
+          </div>
+      </div>
+      </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+    <form class="create-order">
+      <div class="order-block description">
+        <section>
+          <div class="section-description">
+            <h3>Замовити редагування</h3>
+            <p>Виправимо всі помилки, приберемо всі дурниці, перефразуємо невдалі місця, але сильно текст не переписуватимемо. Зайвих виправлень не буде. <a href="#">Детальніше про редагування</a></p>
+          </div>
+          <div class="row-required">
+            <input type="email" required="" class="row-input row-email" placeholder="Ваша эл. почта">
+          </div>
+          <div class="row">
+            <input value class="row-input" placeholder="Ваше имя">
+          </div>
+          <div class="area">
+            <textarea class="text-area" placeholder="Уведіть текст або"></textarea>
+            <label class="download">завантажте файл
+              <input type="file" class="input" accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,.csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel,application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint, text/plain, application/pdf, .rtf, .txt, .pdf, .zip"></label>
+          </div>
+          <div class="symbols"></div>
+        </section>
+        <section>
+          <div class="block-language">
+            <h3>Мова</h3>
+
+              <div class="buttons">
+
+                <div class="radio-button">
+                  <input type="radio" id="ua"
+                  name="language" value="ua">
+                  <label for="ua">Українська</label>
+                </div>
+
+                <div class="radio-button">
+                  <input type="radio" id="ru"
+                  name="language" value="ru">
+                  <label for="ru">Російська</label>
+                </div>
+                
+                <div class="radio-button">
+                  <input type="radio" id="en"
+                  name="language" value="en">
+                  <label for="en">Англійська</label>
+                </div>
+
+              </div>
+              
+          </div>
+          <div class="block-comment">
+            <input value="" class="row-input comment" placeholder="Стислий коментар або посилання">
+          </div>
+        </section>
+      </div>
+      <div class="order-block to-order">
+        <div class="submit">
+          <div></div>
+          <div class="submit-content">
+            <div class="submit-price">
+              <div class="price">0,00 грн</div>
+              <div class="time"></div>
+            </div>
+            <div class="submit-botton">
+              <button type="submit" class="common-button ">Замовити</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  </main>
+      
+  <footer>
+    <div class="container">
+      <nav class="footer-nav">
+        <div class="nav-item">
+          <a rel="nofollow" target="_blank" href="https://www.facebook.com/correctarium/">Facebook</a>
+        </div>
+        <div class="nav-item">
+          <a rel="nofollow" href="mailto:manager@correctarium.com">manager@correctarium.com</a>
+        </div>
+      </nav>
+      <div class="footer-language">
+        <button class="lang-item">Українська</button>
+        <button class="lang-item">Русский</button>
+      </div>
+    </div>
+  </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
